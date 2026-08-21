@@ -17,12 +17,27 @@ POST /v1/messages
 ```
 
 - [OpenAPI specification](openapi.yaml)
+- [Interactive API reference](api/)
 - [Versioning policy](versioning.html)
 
-## Integration guides
+## Compatibility assessments
 
-- [MediaWiki (`IEmailer`)](integrations/mediawiki.html)
-- [WordPress (`wp_mail()`)](integrations/wordpress.html)
+### Frameworks
+
+- [MediaWiki (`IEmailer`)](frameworks/mediawiki.html)
+- [WordPress (`wp_mail()`)](frameworks/wordpress.html)
+- [Drupal (`MailInterface`)](frameworks/drupal.html)
+- [Symfony/Laravel (custom transport)](frameworks/symfony-laravel.html)
+
+### Languages
+
+- [PHP](languages/php.html)
+- [Go](languages/go.html)
+- [Python (`email`)](languages/python.html)
+
+## Transport compatibility
+
+- [SMTP](transports/smtp.html)
 
 ## Source
 
